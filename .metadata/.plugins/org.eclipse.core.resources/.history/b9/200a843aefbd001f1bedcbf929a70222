@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <form th:action="@{/saveEmp}" method="post">
+    
+    <table>
+      <th>
+                </h2>Employee Details<h2>
+            </th>
+            <tr>
+                <td><label>Id : </label></td>
+                <td><input type="text" name="empId" placeholder="Enter Your ID"></td>
+            </tr>
+            <br>
+                
+            <tr>
+                <td><label>Name : </label></td>
+                <td><input type="text" name="empName" placeholder="Enter Your Name"></td>                                
+            </tr>
+            <br>
+                
+            <tr>
+                <td><label>Age : </label></td>
+                <td><input type="text" name="empAge" placeholder="Enter Your Age"></td>                                
+            </tr>
+            <br>
+                
+            <tr>
+                <td><label>Salary : </label></td>
+                <td><input type="text" name="empSalary" placeholder="Enter Your Salary"></td>                                
+            </tr>
+            <br>
+                
+            <tr>
+                <td><label>Location : </label></td>
+                <td><input type="text" name="empLocation" placeholder="Enter Your City"></td>
+            </tr>
+            <br>
+                
+            <tr>
+        <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+    </table>
+    </form>
+</body>
+</html>
